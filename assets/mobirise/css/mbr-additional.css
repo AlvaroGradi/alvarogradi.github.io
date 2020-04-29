@@ -847,45 +847,54 @@ section.lazy-placeholder:after {
 .cid-rXuqgfusVP H3 {
   color: #ffffff;
 }
-.cid-rXusefsYJk {
-  padding-top: 105px;
-  padding-bottom: 105px;
+.cid-rXxjbDZpHf {
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #073b4c;
 }
-.cid-rXusefsYJk .mbr-slider .carousel-control {
+.cid-rXxjbDZpHf .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-rXusefsYJk .mbr-slider .carousel-control-prev {
+.cid-rXxjbDZpHf .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-rXusefsYJk .mbr-slider .carousel-control-next {
+.cid-rXxjbDZpHf .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-rXusefsYJk .mbr-slider .modal-body .close {
+.cid-rXxjbDZpHf .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-rXusefsYJk .mbr-gallery-item > div::before {
+.cid-rXxjbDZpHf .row > .row {
+  display: block;
+}
+.cid-rXxjbDZpHf .mbr-gallery-item {
+  width: 100%;
+}
+.cid-rXxjbDZpHf .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background: #554346;
+  background: #073b4c;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #073b4c, #45505b) !important;
 }
-.cid-rXusefsYJk .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-rXxjbDZpHf .mbr-gallery-item > div {
+  position: relative;
+}
+.cid-rXxjbDZpHf .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-rXusefsYJk .mbr-gallery-item > div:hover:before {
+.cid-rXxjbDZpHf .mbr-gallery-item > div:hover:before {
   opacity: 0.7 !important;
 }
-.cid-rXusefsYJk .mbr-gallery-title {
+.cid-rXxjbDZpHf .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -895,7 +904,7 @@ section.lazy-placeholder:after {
   color: #fff;
   z-index: 2;
 }
-.cid-rXusefsYJk .mbr-gallery-title:before {
+.cid-rXxjbDZpHf .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
@@ -903,9 +912,9 @@ section.lazy-placeholder:after {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #554346 !important;
+  background: #073b4c !important;
   opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #073b4c, #45505b) !important;
 }
