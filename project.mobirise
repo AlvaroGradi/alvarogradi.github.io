@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Alvaro Gradi - Artiste Peintre",
-    "currentPage": "index.html",
+    "currentPage": "galerie.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -55,7 +55,7 @@
     "siteUrl": "https://alvarogradi.github.io",
     "sitemapSwitcherAuto": "on",
     "imageResize": true,
-    "uniqCompNum": 9,
+    "uniqCompNum": 11,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "cookiesAlert": false,
@@ -296,12 +296,6 @@
             ".mbr-slider .modal-body .close": {
               "background": "#1b1b1b"
             },
-            ".row > .row": {
-              "display": "block"
-            },
-            ".mbr-gallery-item": {
-              "width": "100%"
-            },
             ".mbr-gallery-item > div::before": {
               "content": "''",
               "position": "absolute",
@@ -317,15 +311,12 @@
                 "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
               }
             },
-            ".mbr-gallery-item > div": {
-              "position": "relative",
-              "&:hover": {
-                ".mbr-gallery-title::before": {
-                  "background": "transparent !important"
-                },
-                "&:before": {
-                  "opacity": "@overlayOpacity !important"
-                }
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
               }
             },
             ".mbr-gallery-title": {
@@ -353,151 +344,160 @@
                   "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
                 }
               }
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "center"
             }
           },
-          "_name": "gallery4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#073b4c\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#073b4c\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"3\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"3\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text mbr-gallery-show-bullets></div>\n    </div>\n\n</section>",
-          "_cid": "rXxjbDZpHf",
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#073b4c\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text mbr-gallery-show-bullets mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_cid": "rXz1lpr45D",
           "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
             "gallery"
           ],
           "_global": false,
           "_once": false,
           "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Impressionnant",
+                "tags": "Les Conscrits, Villefranche sur Saône",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image1-1-1849x1376.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/image1-1-1849x1376-800x597.jpeg",
-                "alt": "",
-                "title": "",
+                "image": "@PROJECT_PATH@/assets/images/image1-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image1-1024-1024x768-800x600.jpeg",
+                "alt": "Aquarelle : 40x25cm  - CONSCRITS VILLEFRANCHE EN BEAUJOLAIS - vendu",
+                "title": "Aquarelle : 40x25cm  - CONSCRITS VILLEFRANCHE EN BEAUJOLAIS - vendu",
+                "customStyle1": "display-7",
+                "caption": "Aquarelle : 40x25cm<br>CONSCRITS VILLEFRANCHE EN BEAUJOLAIS - (vendu)",
+                "active": false
+              },
+              {
+                "tags": "Asie, Nature",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/image2-1024-1024x1477.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image2-1024-1024x1477-800x1154.jpeg",
+                "alt": "Pastel sur papier: 65x50 cm BASSIN ASIATIQUE",
+                "title": "Pastel sur papier: 65x50 cm BASSIN ASIATIQUE",
                 "customStyle1": "display-7",
                 "caption": "Tapez la légende ici",
                 "active": false
               },
               {
-                "tags": "Adaptatif",
+                "tags": "Nature",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image2-1117x1611.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/image2-1117x1611-800x1154.jpeg",
-                "alt": "",
-                "title": "",
+                "image": "@PROJECT_PATH@/assets/images/image3-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image3-1024-1024x768-800x600.jpeg",
+                "alt": "Huile sur toile : 70x60 cm - SILENCE",
+                "title": "Huile sur toile : 70x60 cm - SILENCE",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Huile sur toile : 70x60 cm<br>SILENCE",
                 "active": false
               },
               {
-                "tags": "Créatif",
+                "tags": "Masques, Italie",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image3-1867x1567.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/image3-1867x1567-800x671.jpeg",
-                "alt": "",
-                "title": "",
+                "image": "@PROJECT_PATH@/assets/images/image4-1024-1024x1337.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image4-1024-1024x1337-800x1045.jpeg",
+                "alt": "Pastel sur papier : 65x50 cm - MASQUES",
+                "title": "Pastel sur papier : 65x50 cm - MASQUES",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Pastel sur papier : 65x50 cm<br>MASQUES",
                 "active": false
               },
               {
-                "tags": "Impressionnant",
+                "tags": "Villefranche sur Saône",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image5-2000x1323.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/image5-2000x1323-800x529.jpeg",
-                "alt": "",
-                "title": "",
+                "image": "@PROJECT_PATH@/assets/images/image5-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image5-1024-1024x768-800x600.jpeg",
+                "alt": "Pastel sur papier : 60x40cm - Rue National Villefranche en Beaujolais",
+                "title": "Pastel sur papier : 60x40cm - Rue National Villefranche en Beaujolais",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Pastel sur papier : 60x40cm<br>&nbsp;Rue National Villefranche en Beaujolais",
                 "active": false
               },
               {
-                "tags": "Impressionnant",
+                "tags": "Italie, Mer",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image6-1347x1095.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/image6-1347x1095-800x608.jpeg",
-                "alt": "",
-                "title": "",
+                "image": "@PROJECT_PATH@/assets/images/image6-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image6-1024-1024x768-800x600.jpeg",
+                "alt": "Huile sur toile : 80x65 cm VENICE - vendu",
+                "title": "Huile sur toile : 80x65 cm VENICE - vendu",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Huile sur toile : 80x65 cm <br>VENICE - (vendu)",
                 "active": false
               },
               {
-                "tags": "Adaptatif",
+                "tags": "Nature, Mer",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image10-2000x1606.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/image10-2000x1606-800x642.jpeg",
-                "alt": "",
-                "title": "",
+                "image": "@PROJECT_PATH@/assets/images/image10-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image10-1024-1024x768-800x600.jpeg",
+                "alt": "Huile sur toile : 81 x 65 cm Pleine mer",
+                "title": "Huile sur toile : 81 x 65 cm Pleine mer",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Huile sur toile : 81 x 65 cm<br> Pleine mer",
                 "active": false
               },
               {
-                "tags": "Animé",
+                "tags": "Villefranche sur Saône, Les Conscrits",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image11-1896x1606.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/image11-1896x1606-800x678.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/image11-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image11-1024-1024x768-800x600.jpeg",
+                "alt": "Le Conscrits - Villefranche sur Saône",
+                "title": "Le Conscrits - Villefranche sur Saône",
+                "customStyle1": "display-7",
+                "caption": "Le Conscrits - <br>Villefranche sur Saône",
+                "active": false
+              },
+              {
+                "tags": "Villefranche sur Saône",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/image12-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image12-1024-1024x768-800x600.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Le Conscrits - <br>Villefranche sur Saône",
+                "active": false
+              },
+              {
+                "tags": "Nature, Mer",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/image15-1024-1024x768.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image15-1024-1024x768-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<br><br>",
                 "active": true
-              },
-              {
-                "tags": "Animé",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image12-1949x1508.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/image12-1949x1508-800x619.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": false
-              },
-              {
-                "tags": "Animé",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image4-1294x1689.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/image4-1294x1689-800x1044.jpeg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": false
-              },
-              {
-                "tags": "Animé",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/image15-2000x1658.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/image15-2000x1658-800x663.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": false
               }
             ]
           },
-          "_anchor": "gallery4-7"
+          "_anchor": "gallery1-a"
         }
       ]
     }
