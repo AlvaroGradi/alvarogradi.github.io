@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Alvaro Gradi - Artiste Peintre",
-    "currentPage": "index.html",
+    "currentPage": "galerie.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -48,7 +48,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "favicon": "@PROJECT_PATH@/assets/images/alvaro-gradi-1.png",
+    "favicon": false,
     "robotsSwitcher": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "sitemapSwitcher": true,
@@ -65,12 +65,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Accueil",
+        "title": "Accueil | Alvaro Gradi | Artiste Peintre",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/alvaro-gradi-1.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/alvaro-gradi-site-1-627x696.jpg"
       },
       "components": [
         {
@@ -886,7 +886,7 @@
     "galerie.html": {
       "settings": {
         "meta_descr": "Web Page Creator Description",
-        "title": "Galerie",
+        "title": "Galerie | Alvaro Gradi | Artiste Peintre",
         "order": 1,
         "meta_image": "@PROJECT_PATH@/assets/images/image5-2000x1323.jpg"
       },
