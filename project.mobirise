@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Alvaro Gradi - Artiste Peintre",
-    "currentPage": "galerie.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -55,7 +55,7 @@
     "siteUrl": "https://alvarogradi.github.io",
     "sitemapSwitcherAuto": "on",
     "imageResize": true,
-    "uniqCompNum": 18,
+    "uniqCompNum": 19,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "cookiesAlert": false,
@@ -120,26 +120,26 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            "& when not (@reverseContent)": {
+            "& when (@reverseContent)": {
               "@media (min-width: 992px)": {
                 ".mbr-figure": {
-                  "padding-right": "4rem"
+                  "padding-left": "4rem"
                 }
               },
-              "@media (max-width: 991px)": {
+              "@media (max-width: 992px)": {
                 ".mbr-figure": {
-                  "padding-bottom": "1rem"
+                  "padding-top": "1rem"
                 }
               }
             },
-            "& when (@reverseContent)": {
+            "& when not (@reverseContent)": {
               ".media-container-row": {
                 "flex-direction": "row-reverse",
                 "-webkit-flex-direction": "row-reverse"
               },
               "@media (min-width: 992px)": {
                 ".mbr-figure": {
-                  "padding-left": "4rem"
+                  "padding-right": "4rem"
                 }
               },
               "@media (max-width: 991px)": {
@@ -148,7 +148,7 @@
                   "-webkit-flex-wrap": "wrap-reverse"
                 },
                 ".mbr-figure": {
-                  "padding-top": "1rem"
+                  "padding-bottom": "1rem"
                 }
               }
             },
@@ -157,14 +157,14 @@
               "text-align": "left"
             }
           },
-          "_name": "content6",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/image4-1024-436x569.jpg\" alt=\"Alvaro Gradi - Artiste Peintre\" title=\"Alvaro Gradi - Artiste Peintre\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Né en 1949, Alvaro Gradi demeure à Gleizé, Rhône depuis 2013.<br><br>Peintre Autodidacte, Alvaro a beacoup exposé au niveau régionnal à Paris, Cannes, St Etienne, Autun etc...\n<br><br>Des participations chez <b>\"Who's Who In Internationnale Arts\" </b>à Genève, <b>Montesrrat Galery à New York</b>, par expeditions de peintures.<br>Ainsi que des livres d'Art.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rXDCxsLrNS",
+          "_name": "content7",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"70\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Né en 1949, Alvaro Gradi demeure à Gleizé, Rhône depuis 2013.\n<br>\n<br>Peintre Autodidacte, Alvaro a beacoup exposé au niveau régionnal à Paris, Cannes, St Etienne, Autun etc... \n<br>\n<br>Des participations chez \"Who's Who In Internationnale Arts\" à Genève, Montesrrat Galery à New York, par expeditions de peintures.\n<br>Ainsi que des livres d'Art.</p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/image4-1024-436x569.jpg\" alt=\"Alvaro Gradi - Artiste Peintre - Pastel sur papier : 65x50 cm - MASQUES\" title=\"Alvaro Gradi - Artiste Peintre - Pastel sur papier : 65x50 cm - MASQUES\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rXDS6orgkL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content6-g"
+          "_anchor": "content7-i"
         },
         {
           "alias": false,
@@ -174,10 +174,13 @@
             "background-color": "@bgColor",
             ".mbr-text, blockquote": {
               "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Né en 1949, Alvaro Gradi demeure à Gleizé, Rhône depuis 2013.\n</b><b style=\"font-size: 1rem;\"></b></p><p><b>Peintre Autodidacte, Alvaro a beacoup exposé au niveau régionnal à Paris, Cannes, St Etienne, Autun etc...\n</b><b style=\"font-size: 1rem;\"></b></p><p><b>Des participations chez \"Who's Who In Internationnale Arts\" à Genève, Montesrrat Galery à New York, par expeditions de peintures.\n</b></p><p><b>Ainsi que des livres d'Art.</b></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Il a été exposé aussi sur une célèbre start-up française (artdefrance.com) basée à San Fransico dans les années 90', mais avec l'explosion des sites internet, le site a fermé fin 90' début 2000'.</b></p><p><b>Portail spécliasé et avant-gardiste, Artdefrance.com présentait les musées nationnaux au public américain.&nbsp;</b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rXDwWM1NFi",
           "_protectedParams": [],
           "_global": false,
@@ -224,11 +227,12 @@
               }
             },
             ".mbr-text": {
-              "color": "#767676"
+              "color": "#767676",
+              "text-align": "left"
             }
           },
           "_name": "content7",
-          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked=\"\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b>Créez votre propre site web en quelques clics !</b> Mobirise vous aide à réduire le temps de développement en vous fournissant un éditeur de site Web flexible avec une interface glisser-déposer. Mobirise Website Builder crée un responsive, retina et <i>Sites compatible mobile</i> en quelques clics. Mobirise est l'un des outils de développement de sites Web les plus faciles à utiliser aujourd'hui.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"../_images/background1.jpg\" alt=\"Mobirise\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"70\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Puis une exposition sur un autre site d'Art consacré à la peinture ainsi qu'une cotation chez Drouot en 2001. Alvaro Gradi a aussi réalisé un nombre important d'affiches pour le lancement des hôtels Ibis en France et à l'étranger dans les années 80'/90', ainsi que quelques prix dans les salons régionnaux.\n<br>\n<br>Sa peinture est poétique, figurative pour ne pas prendre le train contemporain. Tantôt sur le motif, tantôt dans son atelier.\n<br><b>Ses techniques sont : L'aquarelle, Le pastel, l'encre de chine et l'huile.</b><br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/image1-1024-436x327.jpg\" alt=\"Alvaro Gradi - Artiste Peintre - Aquarelle : 40x25cm  - CONSCRITS VILLEFRANCHE EN BEAUJOLAIS - vendu\" title=\"Alvaro Gradi - Artiste Peintre - Aquarelle : 40x25cm  - CONSCRITS VILLEFRANCHE EN BEAUJOLAIS - vendu\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rXDDWIgP0r",
           "_protectedParams": [],
           "_global": false,
