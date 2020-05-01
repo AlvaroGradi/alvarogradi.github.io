@@ -1556,7 +1556,7 @@
                 "title": "Pastel sur papier 63x45 cm Nu Aux Nénuphars",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 63x45 cm<br>Nu Aux Nénuphars",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Huile, Nature",
@@ -1635,6 +1635,19 @@
                 "customStyle1": "display-7",
                 "caption": "Pastel&nbsp;<br>FERRARI",
                 "active": false
+              },
+              {
+                "tags": "Pastel, Les Conscrits, Villefranche sur Saône",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/image13-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/image13-1024-1024x768-800x600.jpeg",
+                "alt": "Les Conscrits Villefranche sur Saône (vendu)",
+                "title": "Les Conscrits Villefranche sur Saône (vendu)",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier<br>Les Conscrits (vendu)",
+                "active": true
               }
             ]
           }
