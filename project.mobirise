@@ -1533,7 +1533,7 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Aquarelle, Les Conscrits, Villefranche sur Saône",
+                "tags": "Aquarelle",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1559,7 +1559,7 @@
                 "active": false
               },
               {
-                "tags": "Huile, Nature",
+                "tags": "Huile",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1572,7 +1572,7 @@
                 "active": false
               },
               {
-                "tags": "Pastel, Masques, Venise",
+                "tags": "Pastel",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1585,7 +1585,7 @@
                 "active": false
               },
               {
-                "tags": "Pastel, Villefranche sur Saône",
+                "tags": "Pastel",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1598,7 +1598,7 @@
                 "active": false
               },
               {
-                "tags": "Huile, Venise, Mer",
+                "tags": "Huile",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1611,7 +1611,7 @@
                 "active": false
               },
               {
-                "tags": "Huile, Mer",
+                "tags": "Huile",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1634,10 +1634,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Pastel&nbsp;<br>FERRARI",
-                "active": false
+                "active": true
               },
               {
-                "tags": "Pastel, Les Conscrits, Villefranche sur Saône",
+                "tags": "Pastel",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1647,7 +1647,7 @@
                 "title": "Les Conscrits Villefranche sur Saône (vendu)",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier<br>Les Conscrits (vendu)",
-                "active": true
+                "active": false
               }
             ]
           }
