@@ -1634,7 +1634,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Pastel 50x60 cm&nbsp;<br>Ferrari",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Pastel",
@@ -1648,6 +1648,19 @@
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier<br>Les Conscrits (vendu)",
                 "active": false
+              },
+              {
+                "tags": "Huile",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/huile-sur-papier-50x60cm-vive-la-classe-1024-1024x1170.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/huile-sur-papier-50x60cm-vive-la-classe-1024-1024x1170-800x914.jpeg",
+                "alt": "Huile sur papier 50x60 cm Vive La Classe",
+                "title": "Huile sur papier 50x60 cm Vive La Classe",
+                "customStyle1": "display-7",
+                "caption": "Huile sur papier 50x60 cm<br> Vive La Classe",
+                "active": true
               }
             ]
           }
