@@ -1699,6 +1699,19 @@
                 "title": "Huile sur toile 61x50 cm Egyptomanie",
                 "customStyle1": "display-7",
                 "caption": "Huile sur toile 61x50 cm Egyptomanie",
+                "active": false
+              },
+              {
+                "tags": "Huile",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/huile-sur-toile-70x80cm-pleine-mer-1024-1024x1204.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/huile-sur-toile-70x80cm-pleine-mer-1024-1024x1204-800x941.jpg",
+                "alt": "Huile sur toile 70x80 cm Pleine Mer",
+                "title": "Huile sur toile 70x80 cm Pleine Mer",
+                "customStyle1": "display-7",
+                "caption": "Huile sur toile 70x80 cm<br> Pleine Mer",
                 "active": true
               }
             ]
