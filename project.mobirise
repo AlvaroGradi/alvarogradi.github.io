@@ -1738,6 +1738,19 @@
                 "title": "Encre et aquarelle 63x50 cm Le Pont Des Arts Paris",
                 "customStyle1": "display-7",
                 "caption": "Encre et aquarelle 63x50 cm<br> Le Pont Des Arts Paris",
+                "active": false
+              },
+              {
+                "tags": "Aquarelle",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/aquarelle-40x30cm-modle-1024-1024x1541.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/aquarelle-40x30cm-modle-1024-1024x1541-800x1204.jpeg",
+                "alt": "Aquarelle 40x30 cm Modèle",
+                "title": "Aquarelle 40x30 cm Modèle",
+                "customStyle1": "display-7",
+                "caption": "Aquarelle 40x30 cm<br> Modèle",
                 "active": true
               }
             ]
