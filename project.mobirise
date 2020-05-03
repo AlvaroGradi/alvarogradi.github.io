@@ -1764,6 +1764,19 @@
                 "title": "Aquarelle 40x30 cm Modèle 2",
                 "customStyle1": "display-7",
                 "caption": "Aquarelle 40x30 cm<div>&nbsp;Modèle 2</div>",
+                "active": false
+              },
+              {
+                "tags": "Aquarelle",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/aquarelle-54x33cm-venise-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/aquarelle-54x33cm-venise-1024-1024x768-800x600.jpeg",
+                "alt": "Aquarelle 54x33 cm Venise",
+                "title": "Aquarelle 54x33 cm Venise",
+                "customStyle1": "display-7",
+                "caption": "Aquarelle 54x33 cm<div>&nbsp;Venise<br></div>",
                 "active": true
               }
             ]
