@@ -1686,6 +1686,19 @@
                 "title": "Huile sur papier 50x65 cm Régate",
                 "customStyle1": "display-7",
                 "caption": "Huile sur papier 50x65 cm<br> Régate",
+                "active": false
+              },
+              {
+                "tags": "Huile",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/huile-sur-toile-61x50cm-egyptomanie-1024-1024x1259.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/huile-sur-toile-61x50cm-egyptomanie-1024-1024x1259-800x984.jpeg",
+                "alt": "Huile sur toile 61x50 cm Egyptomanie",
+                "title": "Huile sur toile 61x50 cm Egyptomanie",
+                "customStyle1": "display-7",
+                "caption": "Huile sur toile 61x50 cm Egyptomanie",
                 "active": true
               }
             ]
