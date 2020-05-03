@@ -1844,6 +1844,19 @@
                 "title": "Encre de Chine 35x28 cm Le Sud",
                 "customStyle1": "display-7",
                 "caption": "<div>Encre de Chine 35x28 cm</div><div>Le Sud<br></div>",
+                "active": false
+              },
+              {
+                "tags": "Encre de Chine",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/encre-de-chine-40x28cm-les-oiseaux-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/encre-de-chine-40x28cm-les-oiseaux-1024-1024x768-800x600.jpeg",
+                "alt": "Encre de Chine 40x28 cm Les Oiseaux",
+                "title": "Encre de Chine 40x28 cm Les Oiseaux",
+                "customStyle1": "display-7",
+                "caption": "<div>Encre de Chine 40x28 cm</div><div>Les Oiseaux<br></div>",
                 "active": true
               }
             ]
