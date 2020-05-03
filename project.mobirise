@@ -1751,6 +1751,19 @@
                 "title": "Aquarelle 40x30 cm Modèle",
                 "customStyle1": "display-7",
                 "caption": "Aquarelle 40x30 cm<br> Modèle",
+                "active": false
+              },
+              {
+                "tags": "Aquarelle",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/aquarelle-40x30cm-modle2-1024-1024x1908.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/aquarelle-40x30cm-modle2-1024-1024x1908-800x1491.jpeg",
+                "alt": "Aquarelle 40x30 cm Modèle 2",
+                "title": "Aquarelle 40x30 cm Modèle 2",
+                "customStyle1": "display-7",
+                "caption": "Aquarelle 40x30 cm<div>&nbsp;Modèle 2</div>",
                 "active": true
               }
             ]
