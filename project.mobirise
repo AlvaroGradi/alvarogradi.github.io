@@ -1790,6 +1790,19 @@
                 "title": "Aquarelle 55x30 cm Aux Deux Pôles de Nos Civilisations",
                 "customStyle1": "display-7",
                 "caption": "<div>Aquarelle 55x30 cm</div><div>Aux Deux Pôles de Nos Civilisations<br></div>",
+                "active": false
+              },
+              {
+                "tags": "Encre de Chine",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/encre-de-chine-43x36cm-tubes-et-fleurs-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/encre-de-chine-43x36cm-tubes-et-fleurs-1024-1024x768-800x600.jpeg",
+                "alt": "Encre de Chine 43x36 cm Tubes et Fleurs",
+                "title": "Encre de Chine 43x36 cm Tubes et Fleurs",
+                "customStyle1": "display-7",
+                "caption": "<div>Encre de Chine 43x36 cm</div><div>Tubes et Fleurs<br></div>",
                 "active": true
               }
             ]
