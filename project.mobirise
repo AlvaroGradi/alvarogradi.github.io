@@ -59,7 +59,8 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-105351846-4\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-105351846-4');\n</script>"
   },
   "pages": {
     "index.html": {
