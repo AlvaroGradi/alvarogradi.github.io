@@ -1777,6 +1777,19 @@
                 "title": "Aquarelle 54x33 cm Venise",
                 "customStyle1": "display-7",
                 "caption": "Aquarelle 54x33 cm<div>&nbsp;Venise<br></div>",
+                "active": false
+              },
+              {
+                "tags": "Aquarelle",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/aquarelle-55x30cm-aux-deux-ples-de-nos-civilisations-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/aquarelle-55x30cm-aux-deux-ples-de-nos-civilisations-1024-1024x768-800x600.jpeg",
+                "alt": "Aquarelle 55x30 cm Aux Deux Pôles de Nos Civilisations",
+                "title": "Aquarelle 55x30 cm Aux Deux Pôles de Nos Civilisations",
+                "customStyle1": "display-7",
+                "caption": "<div>Aquarelle 55x30 cm</div><div>Aux Deux Pôles de Nos Civilisations<br></div>",
                 "active": true
               }
             ]
