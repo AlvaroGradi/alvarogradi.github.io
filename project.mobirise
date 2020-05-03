@@ -1660,6 +1660,19 @@
                 "title": "Huile sur papier 50x60 cm Vive La Classe",
                 "customStyle1": "display-7",
                 "caption": "Huile sur papier 50x60 cm<br> Vive La Classe",
+                "active": false
+              },
+              {
+                "tags": "Huile",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/huile-sur-papier-50x65cm-planche-voile-1024-1024x1370.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/huile-sur-papier-50x65cm-planche-voile-1024-1024x1370-800x1020.jpeg",
+                "alt": "Huile sur papier 50x65 cm Planche à Voile ",
+                "title": "Huile sur papier 50x65 cm Planche à Voile ",
+                "customStyle1": "display-7",
+                "caption": "Huile sur papier 50x65 cm<br> Planche à Voile&nbsp;",
                 "active": true
               }
             ]
