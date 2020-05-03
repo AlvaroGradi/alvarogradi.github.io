@@ -1712,6 +1712,19 @@
                 "title": "Huile sur toile 70x80 cm Pleine Mer",
                 "customStyle1": "display-7",
                 "caption": "Huile sur toile 70x80 cm<br> Pleine Mer",
+                "active": false
+              },
+              {
+                "tags": "Huile",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/huile-sur-toile-80x70cm-les-embruns-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/huile-sur-toile-80x70cm-les-embruns-1024-1024x768-800x600.jpeg",
+                "alt": "Huile sur toile 80x70 cm Les Embruns",
+                "title": "Huile sur toile 80x70 cm Les Embruns",
+                "customStyle1": "display-7",
+                "caption": "Huile sur toile 80x70 cm<br> Les Embruns",
                 "active": true
               }
             ]
