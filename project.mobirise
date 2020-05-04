@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Alvaro Gradi - Artiste Peintre",
-    "currentPage": "index.html",
+    "currentPage": "galerie-aquarelles.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -67,7 +67,7 @@
       "settings": {
         "main": true,
         "title": "Accueil | Alvaro Gradi | Artiste Peintre",
-        "meta_descr": "Alvaro Gradi, Artiste Peintre demeurant à Geilzé dans le Rhône, la région Auvergne Rhône Alpes.\n\nSa peinture est poétique, figurative pour ne pas prendre le train contemporain. Tantôt sur le motif, tantôt dans son atelier.\nSes techniques sont : L'aquarelle, Le pastel, l'encre de chine et l'huile.",
+        "meta_descr": "Alvaro Gradi, Artiste Peintre demeurant à Gleizé dans le Rhône, la région Auvergne Rhône Alpes.\n\nSa peinture est poétique, figurative pour ne pas prendre le train contemporain. Tantôt sur le motif, tantôt dans son atelier.\nSes techniques sont : L'aquarelle, Le pastel, l'encre de chine et l'huile.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
