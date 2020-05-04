@@ -898,13 +898,6 @@ section.lazy-placeholder:after {
 .cid-rY16jUNJtZ .item {
   padding-bottom: 2rem;
 }
-.cid-rY16jUNJtZ .item-wrapper {
-  height: 100%;
-}
-.cid-rY16jUNJtZ .item-wrapper img {
-  height: 100%;
-  object-fit: cover;
-}
 .cid-rY16jUNJtZ .carousel-control,
 .cid-rY16jUNJtZ .close {
   background: #1b1b1b;
