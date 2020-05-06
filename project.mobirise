@@ -3927,6 +3927,19 @@
                 "title": "Pastel sur papier 65x50-cm Masque à La Rose",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 65x50 cm<br><span style=\"background-color: transparent; font-size: 0.9em;\">Masque à La Rose</span>",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire, Venise, Italie",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-65x50cm-masque-de-venise-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-65x50cm-masque-de-venise-1024-1024x768-800x600.jpeg",
+                "alt": "Pastel sur papier 65x50 cm Masque de Venise",
+                "title": "Pastel sur papier 65x50 cm Masque de Venise",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 65x50 cm<div>Masque de Venise<br></div>",
                 "active": true
               }
             ]
