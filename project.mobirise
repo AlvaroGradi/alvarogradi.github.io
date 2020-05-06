@@ -3823,6 +3823,19 @@
                 "title": "Pastel sur papier 30x40 cm Les Trois Grâces",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 30x40 cm<br> Les Trois Grâces",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-50x60cm-questre-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-50x60cm-questre-1024-1024x768-800x600.jpeg",
+                "alt": "Pastel sur papier 50x60 cm Équestre",
+                "title": "Pastel sur papier 50x60 cm Équestre",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 50x60 cm Équestre",
                 "active": true
               }
             ]
