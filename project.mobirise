@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Alvaro Gradi - Artiste Peintre",
-    "currentPage": "mentions-legales.html",
+    "currentPage": "galerie-pastels.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3914,6 +3914,19 @@
                 "title": "Pastel sur papier 65x50 cm Conscrits en Calade",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 65x50 cm Conscrits en Calade",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-65x50-cm-masque-la-rose-1024-1024x1326.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-65x50-cm-masque-la-rose-1024-1024x1326-800x1036.jpeg",
+                "alt": "Pastel sur papier 65x50-cm Masque à La Rose",
+                "title": "Pastel sur papier 65x50-cm Masque à La Rose",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 65x50 cm<br><span style=\"background-color: transparent; font-size: 0.9em;\">Masque à La Rose</span>",
                 "active": true
               }
             ]
