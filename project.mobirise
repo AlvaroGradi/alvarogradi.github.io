@@ -3784,6 +3784,32 @@
                 "title": "Pastel - Paillettes 25x20 cm Sloleil Lunaire",
                 "customStyle1": "display-7",
                 "caption": "Pastel - Paillettes 25x20 cm<br> Sloleil Lunaire",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-paillettes-gommettes-en-relief-dipe-1024-1024x1373.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-paillettes-gommettes-en-relief-dipe-1024-1024x1373-800x1073.jpeg",
+                "alt": "Pastel paillettes et gommettes en relief Œdipe",
+                "title": "Pastel paillettes et gommettes en relief Œdipe",
+                "customStyle1": "display-7",
+                "caption": "Pastel paillettes et<br> gommettes en relief <br>Œdipe",
+                "active": false
+              },
+              {
+                "tags": "Sport",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-30x25cm-combat-1024-1024x1293.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-30x25cm-combat-1024-1024x1293-800x1010.jpeg",
+                "alt": "Pastel sur papier 30x25cm COMBAT",
+                "title": "Pastel sur papier 30x25cm COMBAT",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 30x25cm COMBAT",
                 "active": true
               }
             ]
