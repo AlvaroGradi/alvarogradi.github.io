@@ -3709,7 +3709,7 @@
                 "active": false
               },
               {
-                "tags": "Imaginaire, Venise",
+                "tags": "Imaginaire, Venise, Italie",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3875,6 +3875,19 @@
                 "title": "Pastel sur papier 60x45 cm ENFANCE",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 60x45 cm ENFANCE",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-64x50cm-tauromachie-1024-1024x1281.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-64x50cm-tauromachie-1024-1024x1281-800x1005.jpeg",
+                "alt": "Pastel sur papier 64x50 cm Tauromachie",
+                "title": "Pastel sur papier 64x50 cm Tauromachie",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 64x50 cm<br>Tauromachie",
                 "active": true
               }
             ]
