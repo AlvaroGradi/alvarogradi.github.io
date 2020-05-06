@@ -3771,6 +3771,19 @@
                 "title": "Pastel sur papier 30x40 cm Jeu de  Ballon à Florence",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 30x40 cm<br> Jeu de  Ballon à Florence",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-paillettes-25x20-cm-soleil-lunaire-1024-1024x1321.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-paillettes-25x20-cm-soleil-lunaire-1024-1024x1321-800x1032.jpeg",
+                "alt": "Pastel - Paillettes 25x20 cm Sloleil Lunaire",
+                "title": "Pastel - Paillettes 25x20 cm Sloleil Lunaire",
+                "customStyle1": "display-7",
+                "caption": "Pastel - Paillettes 25x20 cm<br> Sloleil Lunaire",
                 "active": true
               }
             ]
