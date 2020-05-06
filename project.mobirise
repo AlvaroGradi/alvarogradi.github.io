@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Alvaro Gradi - Artiste Peintre",
-    "currentPage": "index.html",
+    "currentPage": "galerie-pastels.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3758,6 +3758,19 @@
                 "title": "Les Conscrits Villefranche sur Saône (vendu)",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier<br>Les Conscrits (vendu)",
+                "active": false
+              },
+              {
+                "tags": "Italie, Sport",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-30x40cm-jeu-de-ballon-florence-1024-1024x1151.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-30x40cm-jeu-de-ballon-florence-1024-1024x1151-800x899.jpeg",
+                "alt": "Pastel sur papier 30x40 cm Jeu de  Ballon à Florence",
+                "title": "Pastel sur papier 30x40 cm Jeu de  Ballon à Florence",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 30x40 cm<br> Jeu de  Ballon à Florence",
                 "active": true
               }
             ]
