@@ -3862,6 +3862,19 @@
                 "title": "Pastel sur papier 50x65 cm Rugby",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 50x65 cm<br> Rugby",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-60x45cm-enfance-1024-1024x1137.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-60x45cm-enfance-1024-1024x1137-800x888.jpeg",
+                "alt": "Pastel sur papier 60x45 cm ENFANCE",
+                "title": "Pastel sur papier 60x45 cm ENFANCE",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 60x45 cm ENFANCE",
                 "active": true
               }
             ]
