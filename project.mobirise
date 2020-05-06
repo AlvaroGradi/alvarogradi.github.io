@@ -3836,6 +3836,19 @@
                 "title": "Pastel sur papier 50x60 cm Équestre",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 50x60 cm Équestre",
+                "active": false
+              },
+              {
+                "tags": "Sport, Mer",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-50x65cm-planche-voile-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-50x65cm-planche-voile-1024-1024x768-800x600.jpeg",
+                "alt": "Pastel sur papier 50x65 cm Planche à Voile",
+                "title": "Pastel sur papier 50x65 cm Planche à Voile",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 50x65 cm<br>Planche à Voile",
                 "active": true
               }
             ]
