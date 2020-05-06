@@ -3810,6 +3810,19 @@
                 "title": "Pastel sur papier 30x25cm COMBAT",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 30x25cm COMBAT",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-sur-papier-30x40cm-les-trois-grces-1024-1024x1399.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-sur-papier-30x40cm-les-trois-grces-1024-1024x1399-800x1093.jpeg",
+                "alt": "Pastel sur papier 30x40 cm Les Trois Grâces",
+                "title": "Pastel sur papier 30x40 cm Les Trois Grâces",
+                "customStyle1": "display-7",
+                "caption": "Pastel sur papier 30x40 cm<br> Les Trois Grâces",
                 "active": true
               }
             ]
