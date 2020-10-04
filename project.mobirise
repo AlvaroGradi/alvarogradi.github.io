@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Alvaro Gradi - Artiste Peintre",
-    "currentPage": "galerie-huiles.html",
+    "currentPage": "galerie-pastels.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3800,7 +3800,7 @@
                 "active": false
               },
               {
-                "tags": "Italie, Sport",
+                "tags": "Sport",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3810,7 +3810,7 @@
                 "title": "Pastel sur papier 30x40 cm Jeu de  Ballon à Florence",
                 "customStyle1": "display-7",
                 "caption": "Pastel sur papier 30x40 cm<br> Jeu de  Ballon à Florence",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Imaginaire",
@@ -3878,7 +3878,7 @@
                 "active": false
               },
               {
-                "tags": "Sport, Mer",
+                "tags": "Sport Nautique",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3930,7 +3930,7 @@
                 "active": false
               },
               {
-                "tags": "Sport, Mer",
+                "tags": "Sport Nautique",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3943,7 +3943,7 @@
                 "active": false
               },
               {
-                "tags": "Conscrits, Villefranche sur Saône",
+                "tags": "Conscrits",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4005,7 +4005,72 @@
                 "title": "Huile-sur-papier-50x60cm-VIVE-LA-CLASSE-1024",
                 "customStyle1": "display-7",
                 "caption": "<div>Pastel VIVE LE CLASSE<br></div>",
-                "active": true
+                "active": false
+              },
+              {
+                "tags": "Sport Nautique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/huile-sur-papier-50x65cm-rgate-1024-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/huile-sur-papier-50x65cm-rgate-1024-1024x768-800x600.jpeg",
+                "alt": "Pastel-sur-papier-50x65cm-RÉGATE",
+                "title": "Pastel-sur-papier-50x65cm-RÉGATE",
+                "customStyle1": "display-7",
+                "caption": "Pastel 64x50 cm<br>RÉGATE",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-40x35cm-table-fruit-1768x1476.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-40x35cm-table-fruit-1768x1476-800x668.jpeg",
+                "alt": "Pastel-40x35cm-le-vin-est-solaire",
+                "title": "Pastel-40x35cm-le-vin-est-solaire",
+                "customStyle1": "display-7",
+                "caption": "Pastel-40x35cm<br>Le Vin est Solaire",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-50x60cm-ivresse-2000x1542.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-50x60cm-ivresse-2000x1542-800x617.jpeg",
+                "alt": "Pastel-50x60cm-IVRESSE",
+                "title": "Pastel-50x60cm-IVRESSE",
+                "customStyle1": "display-7",
+                "caption": "Pastel-50x60cm<br>IVRESSE",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-60x50cm-violoncelle-1386x1818.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-60x50cm-violoncelle-1386x1818-800x1049.jpeg",
+                "alt": "Pastel-60x50cm-VIOLONCELLE",
+                "title": "Pastel-60x50cm-VIOLONCELLE",
+                "customStyle1": "display-7",
+                "caption": "Pastel-60x50cm<div>VIOLONCELLE</div>",
+                "active": false
+              },
+              {
+                "tags": "Imaginaire",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pastel-et-feuille-dor-50x60cm-1345x1794.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/pastel-et-feuille-dor-50x60cm-1345x1794-800x1067.jpeg",
+                "alt": "Pastel-60x50cm-CLARINETTE",
+                "title": "Pastel-60x50cm-CLARINETTE",
+                "customStyle1": "display-7",
+                "caption": "Pastel et Feuille d'or<br><div>CLARINETTE</div>",
+                "active": false
               }
             ]
           }
