@@ -2778,8 +2778,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/encre-de-chine-43x36cm-tubes-et-fleurs-1024-1024x768.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/encre-de-chine-43x36cm-tubes-et-fleurs-1024-1024x768-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/encre-de-chine-43x36cm-tubes-et-fleurs-1025-1024x768.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/encre-de-chine-43x36cm-tubes-et-fleurs-1025-1024x768-800x602.jpeg",
                 "alt": "Encre de Chine 43x36 cm Tubes et Fleurs",
                 "title": "Encre de Chine 43x36 cm Tubes et Fleurs",
                 "customStyle1": "display-7",
@@ -2845,11 +2845,11 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/encre-de-chine-40x29cm-conscrits-1-1025-1024x768.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/encre-de-chine-40x29cm-conscrits-1-1025-1024x768-800x600.jpeg",
-                "alt": "Encre de Chine 40x29 cm Conscrits",
-                "title": "Encre de Chine 40x29 cm Conscrits",
+                "alt": "Les Conscrits Façon Disney",
+                "title": "Les Conscrits Façon Disney",
                 "customStyle1": "display-7",
                 "caption": "<div>Encre de Chine 40x29 cm</div><div>Conscrits<br></div>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Conscrits",
@@ -2863,6 +2863,32 @@
                 "customStyle1": "display-7",
                 "caption": "<div>Les Conscrits en Calade<br></div>",
                 "active": false
+              },
+              {
+                "tags": "Conscrits",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/encre-de-chine-40x29cm-conscrits-mickey-1807x1379.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/encre-de-chine-40x29cm-conscrits-mickey-1807x1379-800x611.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<div>Les Conscrits Façon Disney<br></div>",
+                "active": false
+              },
+              {
+                "tags": "Venise",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/encre-de-chine-40x30cm-embarcadre-venezia-1828x1471.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/encre-de-chine-40x30cm-embarcadre-venezia-1828x1471-800x644.jpg",
+                "alt": "Venise",
+                "title": "Venise",
+                "customStyle1": "display-7",
+                "caption": "Venise<div></div>",
+                "active": true
               }
             ]
           }
